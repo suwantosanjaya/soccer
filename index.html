@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>My Soccer</title>
+    <meta content="Soccer" name="description"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./css/materialize.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./manifest.json" rel="manifest">
+    <link href="./img/soccer512.png" rel="apple-touch-icon">
+    <link rel="shortcut icon" href="./img/soccer128.png">
+    <meta content="#10897B" name="theme-color"/>
+</head>
+<body>
+
+<!--
+    Nama    : Suwanto Sanjaya
+    Email   : suwantosanjaya@uin-suska.ac.id
+-->
+
+<nav class="teal badge sticky-action" role="navigation">
+    <div class="nav-wrapper container">
+        <a class="brand-logo" href="#" id="logo-container">My Soccer</a>
+        <a class="sidenav-trigger white-text" data-target="nav-mobile" href="#">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+    </div>
+</nav>
+
+<div class="preloader" id="preloader">
+    <div class="loading">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="body-content"></div>
+
+<script src="./js/materialize.min.js"></script>
+<script src="./js/idb.js"></script>
+<script src="./js/db.js"></script>
+<script src="./js/api.js"></script>
+<script src="./js/reg-sw.js"></script>
+<script src="./js/nav.js"></script>
+<script src="./js/index.js"></script>
+
+</body>
+</html>

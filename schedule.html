@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Schedule</title>
+    <meta content="Schedule" name="description"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./css/materialize.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./manifest.json" rel="manifest">
+    <link href="./img/soccer512.png" rel="apple-touch-icon">
+    <link rel="shortcut icon" href="./img/soccer128.png">
+    <meta content="#10897B" name="theme-color"/>
+</head>
+<body>
+<nav class="teal badge sticky-action" role="navigation">
+    <div class="nav-wrapper container">
+        <a class="brand-logo" href="#" id="logo-container">Schedule</a>
+        <a href="#" id="btn-back" class="sidenav-trigger" data-target="nav-mobile">
+            <i class="material-icons">arrow_back</i>
+        </a>
+    </div>
+</nav>
+
+<div class="preloader" id="preloader">
+    <div class="loading">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div>
+                <div class="gap-patch">
+                    <div class="circle"></div>
+                </div>
+                <div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="body-content">
+    <h5 id="content-title" class="center"></h5>
+    <div id="schedule_list"></div>
+</div>
+
+<script src="./js/materialize.min.js"></script>
+<script src="./js/idb.js"></script>
+<script src="./js/db.js"></script>
+<script src="./js/api.js"></script>
+<script src="./js/reg-sw.js"></script>
+<script src="./js/schedule.js"></script>
+
+</body>
+</html>
